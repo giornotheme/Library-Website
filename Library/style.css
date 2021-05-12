@@ -1,0 +1,203 @@
+body{
+		background-image:url(fond_ecran.jpg);
+		margin:0;
+}
+
+.conteneur_head{
+		background-color: black;
+		display: flex;
+		flex-direction: row;
+}
+
+nav{
+	width: 100%;
+	display: flex;
+	flex-direction:row;
+	justify-content: center;
+
+}
+ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	text-align: center;
+  list-style-type: none;
+  overflow: hidden;
+}
+
+
+li a{
+
+	padding: 20px 20px 20px 20px;
+	text-decoration: none;
+	color:white;
+}
+
+li a:hover {
+	background-color:#111;
+	border-top: 4px solid #EFEFEF;
+	padding: 16px 20px 20px 20px;
+}
+
+li{
+	display: flex;
+
+	font-size: 25px;
+
+}
+
+#logo{
+	margin-top: 15px;
+	width: 190px;
+	border-radius: 10px;
+	margin-top: 10px;
+
+}
+
+h1{
+	color: #EFEFEF;
+	font-style: italic;
+	margin-left: 40px;
+	font-size: 45px;
+}
+
+.conteneur_book{
+	display: flex;
+	flex-direction:row;
+}
+
+.choix{
+	text-align: center;
+	border-radius: 15px;
+	padding:22px 22px 22px 22px;
+	margin-bottom: 22px;
+	font-size: 25px;
+	border:3px solid white;
+	background-color: #120D16;
+	color: white;
+}
+
+.conteneur_bout{
+	display:flex;
+	flex-direction: column;
+	background-color: #303030;
+	border-top-right-radius: 60px;
+	border-bottom-right-radius: 60px;
+	padding-top: 20px;
+	border:3px solid black;
+	border-left: none;
+	padding-right: 20px;
+	margin-bottom: 35%;
+	padding-bottom: 1%;
+	max-width: 135px;
+}
+
+.choix:hover{
+	background-color: #111;
+	transition: padding-right 1s;
+	cursor:pointer;
+}
+
+.search_author{
+	display: flex;
+	flex-direction: row;
+	margin-left: 36%
+}
+
+
+p{
+	color: white;
+	text-align: center;
+	font-size: 30px;
+	margin:0;
+}
+
+.bloc_pour_author{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+table
+{
+	border-collapse: collapse;
+	color: white;
+}
+
+tr
+{
+	width: 100%;
+}
+
+td
+{
+	border:1px solid white;
+
+}
+.search_by
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.conteneur_search
+{
+	display: flex;
+	flex-direction: column;
+}
+
+.deconnexion{
+	display: flex;
+	justify-content: flex-end;
+	color:red;
+	font-size: 23px;
+}
+
+.already_connected{
+	display: flex;
+	justify-content: space-between;
+}
+
+.image_nick{
+	display: flex;
+	flex-direction: column;
+}
+
+.nickname{
+	font-size: 25px;
+	text-decoration: none;
+	color:white;
+}
+
+.form{
+	border: 2px solid white;
+	margin-top: 20px;
+	margin-left: 25%;
+	margin-right: 25%;
+	margin-bottom: 20px;
+}
+.intro{
+	font-size: 25px;
+	text-indent: 5%;
+	font-style: italic;
+	margin: 0;
+	color: white;
+}
+.msg_accueil{
+	border:1px solid white;
+	background-color: #333;
+	padding:20px;
+	border-radius: 20px;
+	margin-top: 75px;
+	margin-left: 10%;
+	margin-right: 13%;
+}
+.books{
+	display: flex;
+	flex-direction:row;
+}
+.tableau
+{
+	margin-top: 50px;
+}
