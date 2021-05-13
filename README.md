@@ -15,3 +15,5 @@ Go to "Inscription" and create a new account.
 Go back to Connexion then fill your credentials. 
 
 Enjoy the website!
+
+A report is available to have more information about the project
